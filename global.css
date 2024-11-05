@@ -27,7 +27,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, darkgrey, grey, darkgrey);
+    background: linear-gradient(to right, darkgrey, lightgrey, darkgrey);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }

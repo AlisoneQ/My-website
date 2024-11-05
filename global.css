@@ -16,7 +16,7 @@ html, body {
     min-height: 100vh;
 }
 
-.naglowek {
+header {
     width: 100%;
     height: 100%;
     padding: 20px;
@@ -49,17 +49,15 @@ nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    width: calc(100% + 40px);
+    width: 100%;
     height: fit-content;
-    position: sticky;
+    position: fixed;
     margin: -20px;
-    top: 0;
     border-bottom: 3px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(to right, darkgrey, whitesmoke, darkgrey);
     padding: 2vmin;
-    backdrop-filter: blur(5px);
-
+    backdrop-filter: blur(15px);
 }
 
 a {

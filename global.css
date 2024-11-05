@@ -145,7 +145,8 @@ footer .line {
     height: fit-content;
     padding: 20px;
     border-radius: 20px;
-    background: rgba(105, 105, 105, 0.1);
+    background: linear-gradient(135deg, rgba(105, 105, 105, 0.1), rgba(169, 169, 169, 0.1));
+    border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s, box-shadow 0.3s;
 }

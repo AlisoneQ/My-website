@@ -28,7 +28,6 @@ html, body {
 .title {
     margin-top: 20vh;
     font-size: 6vmin;
-    max-font-size: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -139,12 +138,6 @@ footer h3{
 footer .line {
     width: 14vmin;
     margin: 15px auto;
-}
-
-.projectlist {
-    background: linear-gradient(180deg, rgb(25,25,25) 95%, rgb(0,0,0,0.79) 100%);
-    color: whitesmoke;
-    padding: 50px;
 }
 
 .project {

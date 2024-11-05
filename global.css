@@ -26,7 +26,7 @@ html, body {
 }
 
 .title {
-    margin-top: 20vh;
+    margin: 20vh 0 calc(20vh + 30px);
     font-size: 6vmin;
     display: flex;
     flex-direction: column;
@@ -76,7 +76,7 @@ a:hover {
 
 .innersection {
     background: linear-gradient(to bottom, rgb(25,25,25) 95%, rgb(0,0,0,0.79) 100%);
-    padding: 50px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,8 +92,9 @@ a:hover {
 
 
 .innersection .line {
-    width: 30rem;
+    width: 50%;
     margin: 50px;
+    max-width: 40rem;
 }
 
 h2 {

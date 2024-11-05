@@ -140,7 +140,6 @@ footer .line {
 }
 
 .project {
-    backdrop-filter: blur(150px);
     width: fit-content;
     height: fit-content;
     padding: 20px;

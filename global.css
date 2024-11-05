@@ -66,7 +66,7 @@ a {
     margin: 10px;
     color: whitesmoke;
     text-decoration: none;
-    font-size: 3vmin;
+    font-size: 1.4rem;
     transition: transform 0.3s;
 }
 
@@ -93,13 +93,19 @@ a:hover {
 }
 
 h2 {
-    font-size: 5vmin;
+    font-size: 2rem;
     margin: 20px;
 }
 
 p {
-    font-size: 3vmin;
+    font-size: 1.3rem;
     margin: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
 }
 
 footer {
@@ -119,7 +125,7 @@ footer {
 }
 
 footer h3{
-    font-size: 3vmin;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -132,18 +138,13 @@ footer h3{
 
 footer .line {
     width: 14vmin;
-    margin: 20px auto;
+    margin: 15px auto;
 }
 
 .projectlist {
     background: linear-gradient(180deg, rgb(25,25,25) 95%, rgb(0,0,0,0.79) 100%);
     color: whitesmoke;
     padding: 50px;
-}
-
-.projectlist a {
-    font-size: 3vmin;
-    margin: 20px;
 }
 
 .project {

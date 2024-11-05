@@ -28,6 +28,7 @@ html, body {
 .title {
     margin-top: 20vh;
     font-size: 6vmin;
+    max-font-size: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,6 +78,9 @@ a:hover {
 .innersection {
     background: linear-gradient(to bottom, rgb(25,25,25) 95%, rgb(0,0,0,0.79) 100%);
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .text-section {
@@ -84,12 +88,13 @@ a:hover {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
+    max-width: 60rem;
 }
 
 
 .innersection .line {
-    width: 50vw;
-    margin: 50px auto;
+    width: 30rem;
+    margin: 50px;
 }
 
 h2 {
@@ -101,11 +106,6 @@ p {
     font-size: 1.3rem;
     margin: 20px;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
 }
 
 footer {

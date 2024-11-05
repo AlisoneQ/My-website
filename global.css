@@ -44,6 +44,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    width: 100%;
+    height: fit-content;
+    border-bottom: 2px;
+    border-style: solid;
+    backdrop-filter: blur(75%)
+
 }
 
 a {

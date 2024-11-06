@@ -68,7 +68,8 @@ nav {
 }
 
 nav .maxw {
-    justify-content: flex-end !important;
+    display: flex;
+    justify-content: flex-end;
 }
 
 a {

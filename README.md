@@ -1,2 +1,2 @@
-# Moja-strona
-Moja strona z blogiem itp chyba
+# My Website
+My personal website with informations about me social links and blog planned in the future

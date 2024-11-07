@@ -63,18 +63,18 @@ nav {
     border-bottom: 3px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(to right, darkgrey, whitesmoke, darkgrey);
-    padding: 15px;
+    padding: 15px 0;
     backdrop-filter: blur(15px);
 }
 
-.logo {
-    align-self: flex-start;
-    align-self: center;
+.maxw a {
+    margin-inline: 10px;
 }
 
 nav .maxw {
     display: flex;
     justify-content: flex-end;
+    padding-inline: 10px !important;
 }
 
 a {
@@ -148,9 +148,6 @@ footer .maxw {
 @media (max-width: 600px) {
     footer .maxw {
         flex-direction: column;
-    }
-    nav .maxw {
-        padding-inline: 15px !important;
     }
 }
 

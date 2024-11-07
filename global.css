@@ -74,7 +74,7 @@ nav {
 nav .maxw {
     display: flex;
     justify-content: flex-end;
-    padding-inline: 10px !important;
+    padding-inline: 15px !important;
 }
 
 a {

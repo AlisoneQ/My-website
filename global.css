@@ -74,7 +74,14 @@ nav {
 nav .maxw {
     display: flex;
     justify-content: flex-end;
-    padding-inline: 15px !important;
+    padding-inline: 50px !important;
+
+}
+
+@media (max-width: 60rem) {
+    nav .maxw {
+        padding-inline: 15px !important;
+    }
 }
 
 a {

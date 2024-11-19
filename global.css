@@ -54,7 +54,7 @@ header {
     left: 0;
     width: 100%;
     height: 60vh;
-    background: linear-gradient(to bottom, black 40%, dimgray, black 60%);
+    background: linear-gradient(to bottom, black 20%, rgb(25,25,25), black 80%);
     z-index: -1;
 }
 

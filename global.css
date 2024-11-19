@@ -54,8 +54,8 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, black, dimgray, black);
-    z-index: -1; /* Place the pseudo-element behind the text */
+    background: linear-gradient(black, dimgray, black);
+    z-index: -1;
 }
 
 .line {

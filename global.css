@@ -110,7 +110,7 @@ a:hover {
     align-items: center;
 }
 
-.innersection .maxw {
+.maxw:has(.innersection) {
     background: rgb(10,10,10);
 }
 

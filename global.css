@@ -121,6 +121,13 @@ main {
     background: rgb(10,10,10);
 }
 
+main .maxw {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .text-section {
     background: linear-gradient(to right, lightgrey, whitesmoke, lightgrey);
     background-clip: text;

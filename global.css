@@ -111,14 +111,11 @@ a:hover {
     transform: scale(1.1);
 }
 
-.innersection {
+main {
     padding: 50px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.maxw:has(.innersection) {
     background: rgb(10,10,10);
 }
 
